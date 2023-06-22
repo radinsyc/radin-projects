@@ -1,0 +1,24 @@
+﻿# ~~~~ MINI CALCULATOR ~~~~
+
+first = input("enter first number :")
+second = input("enter second number : ")
+oparator = input("enter oparator(+ , - , * , / ) : ")
+
+first = int(first)
+second = int(second)
+
+#MULTIPLICATION
+if oparator == (" * ") :
+    print(first + second)
+
+#DIVISION
+elif oparator == (" / ") :
+    print(first / second)
+#ADDITION
+elif oparator == (" + ") :
+    print(first + second)
+#SUBSTRACTION
+elif oparator == (" - ") :
+    print(first - second)
+
+else : ("wrong calculation")
